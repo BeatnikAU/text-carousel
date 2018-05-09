@@ -10,6 +10,7 @@ This is currently a basic prototype but should (hopefully) be fairly simple to s
 
 * [NodeJS](https://nodejs.org)
 * [Stream Labels](https://streamlabs.com/dashboard#/streamlabels) or similar to generate text files
+* A decent text editor such as Notepad++ or Atom
 
 ## Installation
 
@@ -32,17 +33,21 @@ Download the above zip file and extract.
 
 * Open command prompt or terminal
 * Change directory to the folder you extracted the zip file to
-* Run the following command to install all dependencies - **npm install**
+* Run the following command to install all dependencies
+ `npm install`
 
 ### Run App
 
 * Change directory to the folder you extracted the zip file to
-* Run the following command to start the app - **node app.js**
+* Run the following command to start the app
+ `node app.js`
 * This should display the URL to use for testing and adding to OBS / Xsplit
 
 ## To Do
 
+- [ ] Adjust to set a directory for text files, then set the files to use within rather than full path for each file
 - [ ] Implement config file for all user defined variables
 - [ ] Implement predefined text styling to be used through config file options
 - [ ] Implement optional label prefixes
+- [ ] Use Twitch API to obtain information rather than relying on 3rd party application for text files
 - [ ] Think of the next things to do

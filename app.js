@@ -2,12 +2,13 @@ var fs = require("fs");
 var express = require("express");
 var app = express();
 
-// Hardcoded Labels - add the full path to each label to include separated by commas
+// Hardcoded Labels - add the full path to each label you want to include
+//                  - ensure to use forward slash (/) not backslash (\)
 var paths = [
-  'c:/path/to/latest_follower.txt'
-  ,'c:/path/to/latest_subscriber.txt'
-  ,'c:/path/to/latest_cheer'
-  ,'c:/path/to/latest_donation.txt'
+  'c:/path/to/most_recent_follower.txt'
+  ,'c:/path/to/most_recent_subsicriber.txt'
+  ,'c:/path/to/most_recent_cheer.txt'
+  ,'c:/path/to/most_recent_donation.txt'
 ];
 var labels = [];
 
