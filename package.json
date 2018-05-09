@@ -1,0 +1,28 @@
+{
+  "name": "text-carousel",
+  "version": "0.0.1",
+  "description": "A basic web NodeJS app to serve a text carousel web page for use in OBS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeatnikAU/text-carousel.git"
+  },
+  "keywords": [
+    "OBS",
+    "overlay"
+  ],
+  "author": "BeatnikAU",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeatnikAU/text-carousel/issues"
+  },
+  "homepage": "https://github.com/BeatnikAU/text-carousel#readme",
+  "dependencies": {
+    "ejs": "^2.5.9",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security"
+  }
+}
