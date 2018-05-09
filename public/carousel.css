@@ -1,35 +1,44 @@
 body {
-  font-family: sans-serif;
-  font-size: 50px;
-  font-weight: bold;
-  <!-- below for testing -->
-  <!-- background-color: black; -->
+  /* used for testing */
+  /* background-color: black; */
 }
 
 div {
   margin-left: auto;
   margin-right: auto;
-  color: white;
-  text-align: center;
   overflow: hidden;
   height: 0px;
+  /* vvv TEXT STYLING SECTION vvv */
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
   text-shadow: 1px 0 4px #80e5ff, -1px 0 4px #80e5ff, 0 -1px 4px #80e5ff, 0 1px 4px #80e5ff;
 }
 
+/*
+  Create more of these to match the labels you want displayed. You will
+  only need to update the first two numbers;
+   - The first number in each line is how long to display the text for
+   - The second number is the delay, so this must be the cumulative amount
+  of seconds of all previous labels.
+
+*/
 #label1 {
-  animation: cycleLabels 14s 1s 1 ease-out alternate;
+  animation: cycleLabels 15s 0s 1 ease-out alternate;
 }
 
 #label2 {
-  animation: cycleLabels 14s 16s 1 ease-out alternate;
+  animation: cycleLabels 15s 15s 1 ease-out alternate;
 }
 
 #label3 {
-  animation: cycleLabels 14s 31s 1 ease-out alternate;
+  animation: cycleLabels 15s 30s 1 ease-out alternate;
 }
 
 #label4 {
-  animation: cycleLabels 14s 46s 1 ease-out alternate;
+  animation: cycleLabels 15s 45s 1 ease-out alternate;
 }
 
 @keyframes cycleLabels {
