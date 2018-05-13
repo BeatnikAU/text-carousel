@@ -38,16 +38,23 @@ Download the above zip file and extract.
 
 ### Run App
 
+#### Automated
+
+* Double click the included `start.bat` file (or create a shortcut to it elsewhere)
+
+#### Manual
+
 * Change directory to the folder you extracted the zip file to
 * Run the following command to start the app
  `node app.js`
 * This should display the URL to use for testing and adding to OBS / Xsplit
 
-## To Do
+## Next Features
 
-- [ ] Adjust to set a directory for text files, then set the files to use within rather than full path for each file
 - [ ] Implement config file for all user defined variables
+- [ ] Implement an easier method of setting files to read
 - [ ] Implement predefined text styling to be used through config file options
-- [ ] Implement optional label prefixes
+- [ ] Implement optional label prefixes and suffixes
+- [ ] Create a configuration interface
 - [ ] Use Twitch API to obtain information rather than relying on 3rd party application for text files
 - [ ] Think of the next things to do
