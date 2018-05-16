@@ -1,10 +1,10 @@
 {
 
   "files": [
-    "./latestFollower.txt"
-    , "./latestSub.txt"
-    , "./latestDonation.txt"
-    , "./latestCheer.txt"
+    "C:/Path/To/File1.txt"
+    , "C:/Path/To/File2.txt"
+    , "C:/Path/To/File3.txt"
+    , "C:/Path/To/File4.txt"
   ],
 
   "text": {
