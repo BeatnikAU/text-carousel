@@ -27,7 +27,7 @@ All customisation can be made in the file `config.json`.
 **PLEASE NOTE** Windows users will need to change all backslashes (\\) to forward slash (/) for the file paths.
 
 1. Right click the `config.json` file and click edit, or open it your favourite text editor
-2. Add the full file path for each text file you want included (making sure to replace backslash with forward slash)
+2. Add the full file path for each text file you want included (making sure to replace backslash with forward slash). Each line after the first filepath needs to start with a comma (,)
 3. Set your preferred options for text options (see Configuration section for current options)
 4. Save and close the file
 
