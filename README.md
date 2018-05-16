@@ -24,7 +24,7 @@ Download the above zip file and extract.
 
 All customisation can be made in the file `config.json`.
 
-*PLEASE NOTE* Windows users will need to change all backslashes (\) to forward slash (/) for the file paths.
+**PLEASE NOTE** Windows users will need to change all backslashes (\\) to forward slash (/) for the file paths.
 
 1. Right click the `config.json` file and click edit, or open it your favourite text editor
 2. Add the full file path for each text file you want included (making sure to replace backslash with forward slash)
