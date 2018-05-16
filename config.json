@@ -1,0 +1,28 @@
+{
+
+  "files": [
+    "./latestFollower.txt"
+    , "./latestSub.txt"
+    , "./latestDonation.txt"
+    , "./latestCheer.txt"
+  ],
+
+  "text": {
+    "font": "sans-serif",
+    "size": 50,
+    "bold": "yes",
+    "italic": "no",
+    "colour": "white",
+
+    "decoration": {
+      "type": "glow",
+      "size": 4,
+      "colour": "#80e5ff"
+    }
+  },
+
+  "transition": {
+    "type": "swipeUp",
+    "time": 15
+    }
+}
