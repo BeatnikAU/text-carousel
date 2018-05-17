@@ -46,7 +46,7 @@ function setUserOptions (trans, deco) {
     CSStext = CSStext + `\n  font-weight: bold;`
   };
 
-  if (CONFIG.text.italic === yes) {
+  if (CONFIG.text.italic === "yes") {
     CSStext = CSStext + `\n  font-style: italic;`
   };
 };
