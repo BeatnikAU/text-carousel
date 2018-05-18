@@ -1,6 +1,6 @@
 {
   "name": "text-carousel",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A basic web NodeJS app to serve a text carousel web page for use in OBS",
   "main": "app.js",
   "scripts": {
