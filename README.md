@@ -27,9 +27,11 @@ All customisation can be made in the file `config.json`.
 **PLEASE NOTE** Windows users will need to change all backslashes (\\) to forward slash (/) for the file paths.
 
 1. Right click the `config.json` file and click edit, or open it your favourite text editor
-2. Add the full file path for each text file you want included (making sure to replace backslash with forward slash). Each line after the first filepath needs to start with a comma (,). You can have as many or as little as you want
-3. Set your preferred options for text options (see Configuration section for current options)
-4. Save and close the file
+2. In the list under **"files"**, replace this list with the full file path for each text file you want included (making sure to replace backslash with forward slash). Each line after the first filepath needs to start with a comma (,) and all will need to be contained in quotation marks. You can have as many or as little as you want
+3. If you would like to set some defined text before the information from the text files listed above, go to **"prefix"** set enable to "yes".
+...* You will need the same amount of items under list as there is for files. If you don't want a prefix for all files, you can leave them blank with "".
+4. Set your preferred options for text options (see Configuration section for current options)
+5. Save and close the file
 
 ### Install Dependencies
 

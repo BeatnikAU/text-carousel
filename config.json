@@ -7,6 +7,16 @@
     , "C:/Path/To/File4.txt"
   ],
 
+  "prefix": {
+    "enable": "no",
+    "list": [
+      "prefix one"
+      , ""
+      , "prefix three"
+      , ""
+    ]
+  },
+
   "text": {
     "font": "sans-serif",
     "size": 50,

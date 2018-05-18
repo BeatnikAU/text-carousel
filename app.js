@@ -61,15 +61,21 @@ app.get('/', function(req, res) {
   labels = [];
   body = ``;
   delay = 0;
+  count = 0;
+  prefix = ``;
 
   function setLabels (file, cb) {
     setTimeout(() => {
       fs.readFile(file, 'utf8', function(err, data) {
         if (err) {
           console.log(`error with ${file}: ${err}`);
-        }
-        body = body + `    <div id="text" style="animation: cycleLabels ${CONFIG.transition.time}s ${delay}s 1 ease-in-out alternate;">\n      ${data.toUpperCase()}    </div>\n`;
+        };
+        if (CONFIG.prefix.enable = "yes") {
+          prefix = CONFIG.prefix.list[count] + " ";
+        };
+        body = body + `    <div id="text" style="animation: cycleLabels ${CONFIG.transition.time}s ${delay}s 1 ease-in-out alternate;">\n${prefix.toUpperCase()}${data.toUpperCase()}    </div>\n`;
         delay = delay + CONFIG.transition.time;
+        count++
       });
       setTimeout(() => {cb()}, 50);
     }, 50);
